@@ -19,6 +19,8 @@ public class ModItems {
     //Items
     public static final Item INFINITE_FUEL = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final Item IRON_CARROT = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(10).snack().saturationModifier(12f).build()));
+    public static final Item ALEX = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item HOT_ALEX = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(69).snack().saturationModifier(69f).build()));
 
 
     //Registry
@@ -27,6 +29,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "infinite_fuel"), INFINITE_FUEL);
         FuelRegistry.INSTANCE.add(INFINITE_FUEL, 32767);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "iron_carrot"), IRON_CARROT);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "alex"), ALEX);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "hot_alex"), HOT_ALEX);
 
     }
 }

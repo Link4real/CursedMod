@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cursed:alex"
+  },
+  "result": "cursed:hot_alex",
+  "experience": 6.9,
+  "cookingtime": 150
+}

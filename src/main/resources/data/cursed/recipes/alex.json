@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "BWB",
+    "WWW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:orange_wool"
+    },
+    "B": {
+      "item": "minecraft:black_concrete"
+    },
+    "W": {
+      "item": "minecraft:white_terracotta"
+    }
+  },
+  "result": {
+    "item": "cursed:alex",
+    "count": 1
+  }
+}
