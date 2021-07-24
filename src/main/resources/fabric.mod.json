@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cursed",
+  "version": "${version}",
+
+  "name": "Cursed Mod",
+  "description": "This is cursed",
+  "authors": [
+    "Link4real"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "cosmo",
+  "icon": "assets/cursed/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.link.cursed.mod.Main"
+    ]
+  },
+  "mixins": [
+    ""
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
