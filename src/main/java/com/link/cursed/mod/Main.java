@@ -1,5 +1,6 @@
 package com.link.cursed.mod;
 
+import com.link.cursed.mod.registry.ModBlocks;
 import com.link.cursed.mod.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public static final String MOD_ID = "cursed";
     @Override
     public void onInitialize() {
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
     }
 }

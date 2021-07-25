@@ -1,24 +1,27 @@
 {
   "display": {
     "icon": {
-      "item": "cursed:iron_carrot"
+      "item": "cursed:hot_alex"
     },
-    "title": "Yummy!",
-    "description": "Such a tasty snack!",
-    "frame": "task",
+    "title": "Hot!",
+    "description": "UwU",
+    "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "cursed:hot_alex",
+  "parent": "cursed:iron_carrot",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "cursed:iron_carrot"
+            "item": "cursed:hot_alex"
           }
         ]
       }
     }
+  },
+  "rewards": {
+    "experience": 6969
   }
 }

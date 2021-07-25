@@ -1,11 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "cursed:iron_carrot"
+      "item": "cursed:personal_entertainment_device"
     },
-    "title": "Yummy!",
-    "description": "Such a tasty snack!",
-    "frame": "task",
+    "title": "Entertainment on a new level!",
+    "description": "Now on ebay for 1000$!",
+    "show_toast": true,
     "announce_to_chat": true
   },
   "parent": "cursed:hot_alex",
@@ -15,10 +15,13 @@
       "conditions": {
         "items": [
           {
-            "item": "cursed:iron_carrot"
+            "item": "cursed:personal_entertainment_device"
           }
         ]
       }
     }
+  },
+  "rewards": {
+    "experience": 69
   }
 }

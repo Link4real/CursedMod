@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "cursed:crafting_menu",
+    "count": 1
+  }
+}

@@ -2,6 +2,7 @@ package com.link.cursed.mod.registry;
 
 import com.link.cursed.mod.Main;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -21,7 +22,9 @@ public class ModItems {
     public static final Item IRON_CARROT = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(10).snack().saturationModifier(12f).build()));
     public static final Item ALEX = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final Item HOT_ALEX = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(69).snack().saturationModifier(69f).build()));
-
+    public static final Item CRAFTING_MENU = new Item(new Item.Settings().group(ItemGroup.MISC).food(new FoodComponent.Builder().hunger(1).saturationModifier(1f).alwaysEdible().snack().build()));
+    public static final BlockItem PERSONAL_ENTERTAINMENT_DEVICE = new BlockItem(ModBlocks.PERSONAL_ENTERTAINMENT_DEVICE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Item TWO_GOLDEN_SWORDS = new Item(new Item.Settings().group(ItemGroup.COMBAT));
 
     //Registry
     public static void registerItems() {
@@ -31,6 +34,9 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "iron_carrot"), IRON_CARROT);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "alex"), ALEX);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "hot_alex"), HOT_ALEX);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "crafting_menu"), CRAFTING_MENU);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "personal_entertainment_device"), PERSONAL_ENTERTAINMENT_DEVICE);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "two_golden_swords"), TWO_GOLDEN_SWORDS);
 
     }
 }
