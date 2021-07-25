@@ -25,6 +25,7 @@ public class ModItems {
     public static final Item CRAFTING_MENU = new Item(new Item.Settings().group(ItemGroup.MISC).food(new FoodComponent.Builder().hunger(1).saturationModifier(1f).alwaysEdible().snack().build()));
     public static final BlockItem PERSONAL_ENTERTAINMENT_DEVICE = new BlockItem(ModBlocks.PERSONAL_ENTERTAINMENT_DEVICE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
     public static final Item TWO_GOLDEN_SWORDS = new Item(new Item.Settings().group(ItemGroup.COMBAT));
+    public static final Item FOUR_DIAMONDS = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
     //Registry
     public static void registerItems() {
@@ -37,6 +38,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "crafting_menu"), CRAFTING_MENU);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "personal_entertainment_device"), PERSONAL_ENTERTAINMENT_DEVICE);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "two_golden_swords"), TWO_GOLDEN_SWORDS);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "four_diamonds"), FOUR_DIAMONDS);
 
     }
 }
