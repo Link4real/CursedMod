@@ -6,5 +6,7 @@
   "item.cursed.crafting_menu": "Crafting Menu",
   "block.cursed.personal_entertainment_device": "Personal Entertainment Device 3000",
   "item.cursed.two_golden_swords": "2 Golden Swords",
-  "item.cursed.four_diamonds": "4 Diamonds"
+  "item.cursed.four_diamonds": "4 Diamonds",
+  "block.cursed.smooth_diamond_ore": "Smooth Diamond Ore",
+  "item.cursed.half_diamond_boots": "Small Diamond Boots"
 }

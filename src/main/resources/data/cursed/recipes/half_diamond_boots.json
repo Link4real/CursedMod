@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diamond_boots"
+  },
+  "result": "cursed:half_diamond_boots",
+  "count": 1
+}

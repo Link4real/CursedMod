@@ -2,6 +2,7 @@ package com.link.cursed.mod.registry;
 
 import com.link.cursed.mod.Main;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
@@ -26,6 +27,7 @@ public class ModItems {
     public static final BlockItem PERSONAL_ENTERTAINMENT_DEVICE = new BlockItem(ModBlocks.PERSONAL_ENTERTAINMENT_DEVICE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
     public static final Item TWO_GOLDEN_SWORDS = new Item(new Item.Settings().group(ItemGroup.COMBAT));
     public static final Item FOUR_DIAMONDS = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final BlockItem SMOOTH_DIAMOND_ORE = new BlockItem(ModBlocks.SMOOTH_DIAMOND_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
     //Registry
     public static void registerItems() {
@@ -39,6 +41,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "personal_entertainment_device"), PERSONAL_ENTERTAINMENT_DEVICE);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "two_golden_swords"), TWO_GOLDEN_SWORDS);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "four_diamonds"), FOUR_DIAMONDS);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "smooth_diamond_ore"), SMOOTH_DIAMOND_ORE);
 
     }
 }

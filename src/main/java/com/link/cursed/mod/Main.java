@@ -2,6 +2,7 @@ package com.link.cursed.mod;
 
 import com.link.cursed.mod.registry.ModBlocks;
 import com.link.cursed.mod.registry.ModItems;
+import com.link.cursed.mod.registry.RegisterHalfDiamondArmor;
 import net.fabricmc.api.ModInitializer;
 
 public class Main implements ModInitializer {
@@ -15,5 +16,6 @@ public static final String MOD_ID = "cursed";
     public void onInitialize() {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
+        RegisterHalfDiamondArmor.register();
     }
 }

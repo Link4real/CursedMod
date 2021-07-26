@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "SBI",
+    " B "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:music_disc_cat"
+    },
+    "S": {
+      "item": "minecraft:suspicious_stew"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "I": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:totem_of_undying",
+    "count": 1
+  }
+}
