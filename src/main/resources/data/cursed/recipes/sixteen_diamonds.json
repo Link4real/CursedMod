@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cursed:four_diamonds"
+    },
+    {
+      "item": "cursed:four_diamonds"
+    },
+    {
+      "item": "cursed:four_diamonds"
+    },
+    {
+      "item": "cursed:four_diamonds"
+    }
+  ],
+  "result": {
+    "item": "cursed:sixteen_diamonds",
+    "count": 1
+  }
+}

@@ -28,7 +28,10 @@ public class ModItems {
     public static final Item TWO_GOLDEN_SWORDS = new Item(new Item.Settings().group(ItemGroup.COMBAT));
     public static final Item FOUR_DIAMONDS = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final BlockItem SMOOTH_DIAMOND_ORE = new BlockItem(ModBlocks.SMOOTH_DIAMOND_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
-
+    public static final Item SIXTEEN_DIAMONDS = new Item(new Item.Settings().group(ItemGroup.MISC).food(new FoodComponent.Builder().hunger(4).snack().alwaysEdible().saturationModifier(5f).build()));
+    public static final Item DIAMOND_NUGGET = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item CHICKEN_NUGGETS = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1000).saturationModifier(10000).snack().build()));
+    public static final Item BURNED_CHICKEN_NUGGET = new Item(new Item.Settings().group(ItemGroup.FOOD));
     //Registry
     public static void registerItems() {
 
@@ -42,6 +45,9 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "two_golden_swords"), TWO_GOLDEN_SWORDS);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "four_diamonds"), FOUR_DIAMONDS);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "smooth_diamond_ore"), SMOOTH_DIAMOND_ORE);
-
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "sixteen_diamonds"), SIXTEEN_DIAMONDS);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "diamond_nugget"), DIAMOND_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "chicken_nuggets"), CHICKEN_NUGGETS);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "burned_chicken_nuggets"), BURNED_CHICKEN_NUGGET);
     }
 }

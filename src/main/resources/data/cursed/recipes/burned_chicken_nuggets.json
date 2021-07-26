@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "cursed:chicken_nuggets"
+  },
+  "result": "cursed:burned_chicken_nuggets",
+  "experience": 0.1,
+  "cookingtime": 200
+}

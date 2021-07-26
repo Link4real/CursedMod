@@ -8,5 +8,9 @@
   "item.cursed.two_golden_swords": "2 Golden Swords",
   "item.cursed.four_diamonds": "4 Diamonds",
   "block.cursed.smooth_diamond_ore": "Smooth Diamond Ore",
-  "item.cursed.half_diamond_boots": "Small Diamond Boots"
+  "item.cursed.half_diamond_boots": "Small Diamond Boots",
+  "item.cursed.sixteen_diamonds": "Sixteen Diamonds",
+  "item.cursed.diamond_nugget": "Diamond Nugget",
+  "item.cursed.chicken_nuggets": "Chicken Nuggets",
+  "item.cursed.burned_chicken_nuggets": "Burned Chicken Nuggets"
 }
