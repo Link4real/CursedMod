@@ -4,16 +4,16 @@
   "version": "${version}",
 
   "name": "Cursed Mod",
-  "description": "This is cursed",
+  "description": "That's a bit off!",
   "authors": [
     "Link4real"
   ],
   "contact": {
-    "homepage": "",
+    "homepage": "https://link4real.github.io/cursed-mod",
     "sources": ""
   },
 
-  "license": "cosmo",
+  "license": "CC0 1.0 Universal",
   "icon": "assets/cursed/icon.png",
 
   "environment": "*",
