@@ -19,19 +19,19 @@ public class ModItems {
 
 
     //Items
-    public static final Item INFINITE_FUEL = new Item(new Item.Settings().group(ItemGroup.MISC));
-    public static final Item IRON_CARROT = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(10).snack().saturationModifier(12f).build()));
-    public static final Item ALEX = new Item(new Item.Settings().group(ItemGroup.MISC));
-    public static final Item HOT_ALEX = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(69).snack().saturationModifier(69f).build()));
-    public static final Item CRAFTING_MENU = new Item(new Item.Settings().group(ItemGroup.MISC).food(new FoodComponent.Builder().hunger(1).saturationModifier(1f).alwaysEdible().snack().build()));
-    public static final BlockItem PERSONAL_ENTERTAINMENT_DEVICE = new BlockItem(ModBlocks.PERSONAL_ENTERTAINMENT_DEVICE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
-    public static final Item TWO_GOLDEN_SWORDS = new Item(new Item.Settings().group(ItemGroup.COMBAT));
-    public static final Item FOUR_DIAMONDS = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final BlockItem SMOOTH_DIAMOND_ORE = new BlockItem(ModBlocks.SMOOTH_DIAMOND_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
-    public static final Item SIXTEEN_DIAMONDS = new Item(new Item.Settings().group(ItemGroup.MISC).food(new FoodComponent.Builder().hunger(4).snack().alwaysEdible().saturationModifier(5f).build()));
-    public static final Item DIAMOND_NUGGET = new Item(new Item.Settings().group(ItemGroup.MISC));
-    public static final Item CHICKEN_NUGGETS = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1000).saturationModifier(10000).snack().build()));
-    public static final Item BURNED_CHICKEN_NUGGET = new Item(new Item.Settings().group(ItemGroup.FOOD));
+    public static final Item INFINITE_FUEL = new Item(new Item.Settings());
+    public static final Item IRON_CARROT = new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(10).snack().saturationModifier(12f).build()));
+    public static final Item ALEX = new Item(new Item.Settings());
+    public static final Item HOT_ALEX = new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(69).snack().saturationModifier(69f).build()));
+    public static final Item CRAFTING_MENU = new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(1).saturationModifier(1f).alwaysEdible().snack().build()));
+    public static final BlockItem PERSONAL_ENTERTAINMENT_DEVICE = new BlockItem(ModBlocks.PERSONAL_ENTERTAINMENT_DEVICE, new Item.Settings());
+    public static final Item TWO_GOLDEN_SWORDS = new Item(new Item.Settings());
+    public static final Item FOUR_DIAMONDS = new Item(new Item.Settings());
+    public static final BlockItem SMOOTH_DIAMOND_ORE = new BlockItem(ModBlocks.SMOOTH_DIAMOND_ORE, new Item.Settings());
+    public static final Item SIXTEEN_DIAMONDS = new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(4).snack().alwaysEdible().saturationModifier(5f).build()));
+    public static final Item DIAMOND_NUGGET = new Item(new Item.Settings());
+    public static final Item CHICKEN_NUGGETS = new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(1000).saturationModifier(10000).snack().build()));
+    public static final Item BURNED_CHICKEN_NUGGET = new Item(new Item.Settings());
     //Registry
     public static void registerItems() {
 
