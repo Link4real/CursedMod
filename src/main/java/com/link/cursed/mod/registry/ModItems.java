@@ -32,6 +32,9 @@ public class ModItems {
     public static final Item HEART = new Item(new Item.Settings().food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 10000, 249), 1).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 10000, 249), 1).hunger(2).saturationModifier(3f).alwaysEdible().snack().build()));
     public static final Item GAPPLE = new Item(new Item.Settings().food(new FoodComponent.Builder().saturationModifier(3f).alwaysEdible().snack().hunger(4).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1986, 1),1).statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 1092, 2), 1).build()));
     public static final BlockItem COOKIE_BLOCK = new BlockItem(ModBlocks.COOCKIE_BLOCK, new Item.Settings());
+    public static final  Item DIAMOND_STACK = new Item(new Item.Settings());
+    public static final Item ONE_THOUSAND_AND_TWENTY_SIX_DIAMONDS = new Item(new Item.Settings());
+    public static final Item TWO_HUNDRED_AND_FIFTY_SIX_DIAMONDS = new Item(new Item.Settings());
     //Registry
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "infinite_fuel"), INFINITE_FUEL);
@@ -51,5 +54,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "heart"), HEART);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "gapple"), GAPPLE);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "cookie_block"), COOKIE_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "diamond_stack"), DIAMOND_STACK);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "one_thousand_and_twenty_six_diamonds"), ONE_THOUSAND_AND_TWENTY_SIX_DIAMONDS);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "two_hundred_and_fifty_six_diamonds"), TWO_HUNDRED_AND_FIFTY_SIX_DIAMONDS);
     }
 }

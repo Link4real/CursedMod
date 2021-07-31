@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "result": "cursed:diamond_top",
+  "count": 1
+}

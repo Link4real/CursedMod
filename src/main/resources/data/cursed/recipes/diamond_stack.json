@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "cursed:sixteen_diamonds"
+    }
+  },
+  "result": {
+    "item": "cursed:diamond_stack",
+    "count": 1
+  }
+}

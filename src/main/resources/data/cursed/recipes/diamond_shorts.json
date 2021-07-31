@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "result": "cursed:diamond_shorts",
+  "count": 1
+}

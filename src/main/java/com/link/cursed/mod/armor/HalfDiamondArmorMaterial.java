@@ -12,7 +12,10 @@ import net.minecraft.sound.SoundEvents;
 public class HalfDiamondArmorMaterial implements ArmorMaterial {
     private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
     private static final HalfDiamondArmorMaterial D = new HalfDiamondArmorMaterial();
-    private static final HalfDiamondArmorMaterial[] PROTECTION_VALUES = new HalfDiamondArmorMaterial[]{D};
+    private static final HalfDiamondArmorMaterial B = new HalfDiamondArmorMaterial();
+    private static final HalfDiamondArmorMaterial A = new HalfDiamondArmorMaterial();
+    private static final HalfDiamondArmorMaterial C = new HalfDiamondArmorMaterial();
+    private static final HalfDiamondArmorMaterial[] PROTECTION_VALUES = new HalfDiamondArmorMaterial[]{D,B,A,C};
     public HalfDiamondArmorMaterial(Item.Settings group) {
 
     }

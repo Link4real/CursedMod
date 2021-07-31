@@ -9,6 +9,9 @@
   "item.cursed.four_diamonds": "4 Diamonds",
   "block.cursed.smooth_diamond_ore": "Smooth Diamond Ore",
   "item.cursed.half_diamond_boots": "Small Diamond Boots",
+  "item.cursed.diamond_shorts": "Diamond Shorts",
+  "item.cursed.diamond_top": "Diamond Top",
+  "item.cursed.diamond_beret": "Diamond Beret",
   "item.cursed.sixteen_diamonds": "Sixteen Diamonds",
   "item.cursed.diamond_nugget": "Diamond Nugget",
   "item.cursed.chicken_nuggets": "Chicken Nuggets",
@@ -18,5 +21,8 @@
   "item.minecraft.totem_of_undying": "Suspicious Totem",
   "item.cursed.gapple": "Gapple",
   "item.cursed.heart": "HEART",
-  "block.cursed.cookie_block": "Cookie Block"
+  "block.cursed.cookie_block": "Cookie Block",
+  "item.cursed.diamond_stack": "64 Diamonds",
+  "item.cursed.one_thousand_and_twenty_six_diamonds": "One thousand and twenty six Diamonds",
+  "item.cursed.two_hundred_and_fifty_six_diamonds": "Two hundred and fifty six Diamonds"
 }
