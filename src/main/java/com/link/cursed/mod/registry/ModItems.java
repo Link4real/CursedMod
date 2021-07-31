@@ -2,16 +2,13 @@ package com.link.cursed.mod.registry;
 
 import com.link.cursed.mod.Main;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.minecraft.block.Block;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-
-import java.io.FileOutputStream;
-
 public class ModItems {
 
 
@@ -32,9 +29,11 @@ public class ModItems {
     public static final Item DIAMOND_NUGGET = new Item(new Item.Settings());
     public static final Item CHICKEN_NUGGETS = new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(1000).saturationModifier(10000).snack().build()));
     public static final Item BURNED_CHICKEN_NUGGET = new Item(new Item.Settings());
+    public static final Item HEART = new Item(new Item.Settings().food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 10000, 249), 1).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 10000, 249), 1).hunger(2).saturationModifier(3f).alwaysEdible().snack().build()));
+    public static final Item GAPPLE = new Item(new Item.Settings().food(new FoodComponent.Builder().saturationModifier(3f).alwaysEdible().snack().hunger(4).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1986, 1),1).statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 1092, 2), 1).build()));
+    public static final BlockItem COOKIE_BLOCK = new BlockItem(ModBlocks.COOCKIE_BLOCK, new Item.Settings());
     //Registry
     public static void registerItems() {
-
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "infinite_fuel"), INFINITE_FUEL);
         FuelRegistry.INSTANCE.add(INFINITE_FUEL, 32767);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "iron_carrot"), IRON_CARROT);
@@ -49,5 +48,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "diamond_nugget"), DIAMOND_NUGGET);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "chicken_nuggets"), CHICKEN_NUGGETS);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "burned_chicken_nuggets"), BURNED_CHICKEN_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "heart"), HEART);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "gapple"), GAPPLE);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "cookie_block"), COOKIE_BLOCK);
     }
 }

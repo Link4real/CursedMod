@@ -15,11 +15,12 @@ public class ModBlocks {
 
     public static final Block PERSONAL_ENTERTAINMENT_DEVICE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
     public static final Block SMOOTH_DIAMOND_ORE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f,5f).sounds(BlockSoundGroup.STONE));
+    public static final Block COOCKIE_BLOCK = new Block(FabricBlockSettings.of(Material.CAKE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1f, 5f).sounds(BlockSoundGroup.ANVIL));
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "personal_entertainment_device"), PERSONAL_ENTERTAINMENT_DEVICE);
         Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "smooth_diamond_ore"), SMOOTH_DIAMOND_ORE);
-
+        Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "cookie_block"), COOCKIE_BLOCK);
 
     }
 

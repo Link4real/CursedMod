@@ -15,5 +15,8 @@
   "item.cursed.burned_chicken_nuggets": "Burned Chicken Nuggets",
   "itemGroup.cursed.main": "Cursed Mod",
   "block.minecraft.stonecutter": "Saw",
-  "item.minecraft.totem_of_undying": "Suspicious Totem"
+  "item.minecraft.totem_of_undying": "Suspicious Totem",
+  "item.cursed.gapple": "Gapple",
+  "item.cursed.heart": "HEART",
+  "block.cursed.cookie_block": "Cookie Block"
 }
