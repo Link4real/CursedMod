@@ -14,6 +14,6 @@ Releases will follow eventually
 
 *Infinite Fuel is NOT infinite!
  
- It will run out after around 2,147,483,647 ticks or 3.40255519026156 Years!
+ It will run out after around 1 hour!
 
 (the duration hits the integer limit of minecraft!)
