@@ -7,28 +7,10 @@
 
 
 
-'Apple Ingot
-
-Like a Golden Apple recipe but sideways
-
-
-
-
-
 
 'Carrot Nugget
 
 Carrot and Golden Nugget
-
-
-
-
-
-
-
-'Block of Apple
-
-Tasty and Placeable joy
 
 
 
