@@ -1,16 +1,7 @@
 
-' Very bent sword
-
-    Bend like a Work-Bench
-
 ' H E A D
 
   A block with my head, omg i love myself so much :O
-
-
-' Chest Dimesion 
-
-    Chest Block (2 Variants -> Top and bottom), Creates portal when lighted up with a dimensional chest, Dimension with Chests all over the place
 
 'Eatable Bedrock
  

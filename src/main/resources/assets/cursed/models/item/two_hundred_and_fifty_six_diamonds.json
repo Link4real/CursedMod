@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "cursed:items/two_hundred_and_fifty_six_diamonds"
   }

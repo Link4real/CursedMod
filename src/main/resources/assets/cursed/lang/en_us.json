@@ -17,6 +17,7 @@
   "item.cursed.chicken_nuggets": "Chicken Nuggets",
   "item.cursed.burned_chicken_nuggets": "Burned Chicken Nuggets",
   "itemGroup.cursed.main": "Cursed Mod",
+  "itemGroup.cursed.diamond": "Cursed Diamonds",
   "block.minecraft.stonecutter": "Saw",
   "item.minecraft.totem_of_undying": "Suspicious Totem",
   "item.cursed.gapple": "Gapple",
@@ -27,5 +28,7 @@
   "item.cursed.two_hundred_and_fifty_six_diamonds": "Two hundred and fifty six Diamonds",
   "item.cursed.snail": "Snail",
   "modmenu.updates": "Updates",
-  "modmenu.cosmo": "Cosmoclient Discord"
+  "modmenu.cosmo": "Cosmoclient Discord",
+  "item.cursed.diamond_pufferfish": "Diamond Pufferfish",
+  "item.cursed.netherite_pufferfish": "Netherite Pufferfish"
 }
