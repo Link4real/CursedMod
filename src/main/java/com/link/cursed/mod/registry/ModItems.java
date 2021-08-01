@@ -7,7 +7,6 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 public class ModItems {
@@ -32,13 +31,15 @@ public class ModItems {
     public static final Item BURNED_CHICKEN_NUGGET = new Item(new Item.Settings().group(Main.ITEM_GROUP));
     public static final Item HEART = new Item(new Item.Settings().group(Main.ITEM_GROUP).food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 10000, 249), 1).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 10000, 249), 1).hunger(2).saturationModifier(3f).alwaysEdible().snack().build()));
     public static final Item GAPPLE = new Item(new Item.Settings().group(Main.ITEM_GROUP).food(new FoodComponent.Builder().saturationModifier(3f).alwaysEdible().snack().hunger(4).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1986, 1),1).statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 1092, 2), 1).build()));
-    public static final BlockItem COOKIE_BLOCK = new BlockItem(ModBlocks.COOCKIE_BLOCK, new Item.Settings().group(Main.ITEM_GROUP));
+    public static final BlockItem COOKIE_BLOCK = new BlockItem(ModBlocks.COOKIE_BLOCK, new Item.Settings().group(Main.ITEM_GROUP));
+    public static final BlockItem APPLE_BLOCK = new BlockItem(ModBlocks.APPLE_BLOCK, new Item.Settings().group(Main.ITEM_GROUP));
     public static final  Item DIAMOND_STACK = new Item(new Item.Settings().group(Main.DIAMOND_GROUP));
     public static final Item ONE_THOUSAND_AND_TWENTY_SIX_DIAMONDS = new Item(new Item.Settings().group(Main.DIAMOND_GROUP));
     public static final Item TWO_HUNDRED_AND_FIFTY_SIX_DIAMONDS = new Item(new Item.Settings().group(Main.DIAMOND_GROUP));
     public static final Item SNAIL = new Item(new Item.Settings().food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 240, 6), 0.7f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 230, 2), 1).build()));
     public static final Item DIAMOND_PUFFERFISH = new Item(new Item.Settings().group(Main.DIAMOND_GROUP).food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 240, 0), 1).build()));
     public static final Item NETHERITE_PUFFERFISH = new Item(new Item.Settings().group(Main.ITEM_GROUP).food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 6034, 4), 1).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 420, 3), 1).build()));
+    public static final Item APPLE_INGOT = new Item(new Item.Settings().group(Main.ITEM_GROUP));
     //Registry
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "infinite_fuel"), INFINITE_FUEL);
@@ -64,5 +65,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "snail"), SNAIL);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "diamond_pufferfish"), DIAMOND_PUFFERFISH);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "netherite_pufferfish"), NETHERITE_PUFFERFISH);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "apple_ingot"), APPLE_INGOT);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "apple_block"), APPLE_BLOCK);
     }
 }

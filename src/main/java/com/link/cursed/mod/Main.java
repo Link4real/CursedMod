@@ -32,6 +32,8 @@ public static final String MOD_ID = "cursed";
                 stacks.add(new ItemStack(ModItems.COOKIE_BLOCK));
                 stacks.add(new ItemStack(ModItems.SNAIL));
                 stacks.add(new ItemStack(ModItems.NETHERITE_PUFFERFISH));
+                stacks.add(new ItemStack(ModItems.APPLE_INGOT));
+                stacks.add(new ItemStack(ModItems.APPLE_BLOCK));
             })
             .build();
     // ...

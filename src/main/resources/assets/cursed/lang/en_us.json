@@ -30,5 +30,7 @@
   "modmenu.updates": "Updates",
   "modmenu.cosmo": "Cosmoclient Discord",
   "item.cursed.diamond_pufferfish": "Diamond Pufferfish",
-  "item.cursed.netherite_pufferfish": "Netherite Pufferfish"
+  "item.cursed.netherite_pufferfish": "Netherite Pufferfish",
+  "item.cursed.apple_ingot": "Apple Ingot",
+  "block.cursed.apple_block": "Apple Block"
 }
