@@ -2,20 +2,21 @@
   "schemaVersion": 1,
   "id": "cursed",
   "version": "${version}",
-
   "name": "Cursed Mod",
   "description": "That's a bit off!",
   "authors": [
-    "Link4real"
+    "Link4real",
+    "legendary-cookie",
+    "tisigue",
+    "Phoenix SC (I am not affiliated with him and he isn't informed either)"
   ],
   "contact": {
     "homepage": "https://link4real.github.io/cursed-mod",
-    "sources": ""
+    "sources": "https://github.com/Link4real/CursedMod",
+    "issues": "https://github.com/Link4real/CursedMod/issues"
   },
-
   "license": "CC0 1.0 Universal",
   "icon": "assets/cursed/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -25,7 +26,6 @@
   "mixins": [
     ""
   ],
-
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
@@ -34,5 +34,13 @@
   },
   "suggests": {
     "another-mod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.updates": "https://link4real.github.io/updates.html",
+        "modmenu.cosmo": "https://dsc.gg/cosmoclient"
+      }
+    }
   }
 }

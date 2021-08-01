@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " NS",
+    "SSS"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spider_eye"
+    },
+    "N": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "cursed:snail",
+    "count": 1
+  }
+}

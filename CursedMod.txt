@@ -1,16 +1,3 @@
-'Water Sword
-
-Sand and Water Sword
-
-
-'Cursed Tools
-
-   Tools that are Cursed af (mixed etc)
-
-
-'Mixed armor
-
-    Y E S
 
 ' Very bent sword
 
@@ -47,10 +34,6 @@ Carrot and Golden Nugget
 'Block of Apple
 
 Tasty and Placeable joy
-
-'Snail
-
-Spider Eye and 4 Slime Ball and a Nautilus Shell
 
 
 'Turtle Cake

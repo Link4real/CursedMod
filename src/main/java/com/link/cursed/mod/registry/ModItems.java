@@ -35,6 +35,7 @@ public class ModItems {
     public static final  Item DIAMOND_STACK = new Item(new Item.Settings());
     public static final Item ONE_THOUSAND_AND_TWENTY_SIX_DIAMONDS = new Item(new Item.Settings());
     public static final Item TWO_HUNDRED_AND_FIFTY_SIX_DIAMONDS = new Item(new Item.Settings());
+    public static final Item SNAIL = new Item(new Item.Settings().food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 240, 6), 0.7f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 230, 2), 1).build()));
     //Registry
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "infinite_fuel"), INFINITE_FUEL);
@@ -57,5 +58,6 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "diamond_stack"), DIAMOND_STACK);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "one_thousand_and_twenty_six_diamonds"), ONE_THOUSAND_AND_TWENTY_SIX_DIAMONDS);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "two_hundred_and_fifty_six_diamonds"), TWO_HUNDRED_AND_FIFTY_SIX_DIAMONDS);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "snail"), SNAIL);
     }
 }

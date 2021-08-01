@@ -41,6 +41,7 @@ public static final String MOD_ID = "cursed";
                 stacks.add(new ItemStack(ModItems.GAPPLE));
                 stacks.add(new ItemStack(ModItems.HEART));
                 stacks.add(new ItemStack(ModItems.COOKIE_BLOCK));
+                stacks.add(new ItemStack(ModItems.SNAIL));
             })
             .build();
     // ...
