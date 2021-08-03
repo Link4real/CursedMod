@@ -24,7 +24,7 @@
     ]
   },
   "mixins": [
-    ""
+    "cursed.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.11.3",
