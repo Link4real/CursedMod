@@ -5,16 +5,17 @@ import com.link.cursed.mod.armor.HalfDiamondArmorMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class RegisterHalfDiamondArmor {
     public static final ArmorMaterial ARMOR_MATERIAL = new HalfDiamondArmorMaterial();
-    public static final Item HALF_DIAMOND_BOOTS = new ArmorItem(ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(Main.DIAMOND_GROUP));
-    public static final Item DIAMOND_SHORTS = new ArmorItem(ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(Main.DIAMOND_GROUP));
-    public static final Item DIAMOND_TOP = new ArmorItem(ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(Main.DIAMOND_GROUP));
-    public static final Item DIAMOND_BERET = new ArmorItem(ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(Main.DIAMOND_GROUP));
+    public static final Item HALF_DIAMOND_BOOTS = new ArmorItem(ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(Main.DIAMOND_GROUP).food(new FoodComponent.Builder().build()));
+    public static final Item DIAMOND_SHORTS = new ArmorItem(ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(Main.DIAMOND_GROUP).food(new FoodComponent.Builder().build()));
+    public static final Item DIAMOND_TOP = new ArmorItem(ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(Main.DIAMOND_GROUP).food(new FoodComponent.Builder().build()));
+    public static final Item DIAMOND_BERET = new ArmorItem(ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(Main.DIAMOND_GROUP).food(new FoodComponent.Builder().build()));
     public static final String MOD_ID = Main.MOD_ID;
 
     public static void register() {

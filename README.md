@@ -1,10 +1,14 @@
 # Cursed Mod
 
-## This is a Minecraft Mod made by me (Link4real)
+## This is a Minecraft Mod (wow omg how interesting)
 
 I made it for fun and it is still in development!
 
-Releases will follow eventually
+Releases will follow on the website and Curseforge
+
+Website: https://link4real.github.io/cursed-mod/
+
+Wiki: https://link4real.github.io/wiki/
 
 ## DISCLAIMER
 
@@ -12,8 +16,6 @@ Releases will follow eventually
 
  So credits go to him!
 
-*Infinite Fuel is NOT infinite!
- 
- It will run out after around 1 hour!
+*Infinite Fuel might be infinite
 
-(the duration hits the integer limit of minecraft!)
+It might be or not idk

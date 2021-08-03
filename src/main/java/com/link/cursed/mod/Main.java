@@ -47,7 +47,7 @@ public static final String MOD_ID = "cursed";
                 stacks.add(new ItemStack(ModItems.SIXTEEN_DIAMONDS));
                 stacks.add(new ItemStack(ModItems.DIAMOND_STACK));
                 stacks.add(new ItemStack(ModItems.TWO_HUNDRED_AND_FIFTY_SIX_DIAMONDS));
-                stacks.add(new ItemStack(ModItems.ONE_THOUSAND_AND_TWENTY_SIX_DIAMONDS));
+                stacks.add(new ItemStack(ModItems.ONE_THOUSAND_AND_TWENTY_FOUR_DIAMONDS));
                 stacks.add(new ItemStack(ModItems.SMOOTH_DIAMOND_ORE));
                 stacks.add(new ItemStack(RegisterHalfDiamondArmor.HALF_DIAMOND_BOOTS));
                 stacks.add(new ItemStack(RegisterHalfDiamondArmor.DIAMOND_SHORTS));
