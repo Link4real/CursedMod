@@ -10,12 +10,14 @@ Website: https://link4real.github.io/cursed-mod/
 
 Wiki: https://link4real.github.io/wiki/
 
-## DISCLAIMER
+# DISCLAIMER
 
-*A lot of the ideas are from PhoenixSC
+*A lot of the ideas are from PhoenixSC and his community
 
  So credits go to him!
+ 
+He is NOT informed and I am not affiliated with him
 
-*Infinite Fuel might be infinite
+#Respect the License
 
-It might be or not idk
+Thank you!

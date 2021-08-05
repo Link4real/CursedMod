@@ -27,7 +27,7 @@ public class ModItems {
     public static final Item DIAMOND_NUGGET = new Item(new Item.Settings().group(Main.DIAMOND_GROUP).maxCount(65).food(new FoodComponent.Builder().build()));
     public static final Item CHICKEN_NUGGETS = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(65).food(new FoodComponent.Builder().hunger(1000).saturationModifier(10000).snack().build()));
     public static final Item BURNED_CHICKEN_NUGGET = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(65).food(new FoodComponent.Builder().build()));
-    public static final Item HEART = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(65).food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 10000, 249), 1).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 10000, 249), 1).hunger(2).saturationModifier(3f).alwaysEdible().snack().build()));
+    public static final Item HEART = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(65).food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 10000, 249), 1).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 10000, 254), 1).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 10000, 254), 1).hunger(2).saturationModifier(3f).alwaysEdible().snack().build()));
     public static final Item GAPPLE = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(65).food(new FoodComponent.Builder().saturationModifier(3f).alwaysEdible().snack().hunger(4).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1986, 1), 1).statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 1092, 2), 1).build()));
     public static final BlockItem COOKIE_BLOCK = new BlockItem(ModBlocks.COOKIE_BLOCK, new Item.Settings().maxCount(65).group(Main.ITEM_GROUP).food(new FoodComponent.Builder().build()));
     public static final BlockItem APPLE_BLOCK = new BlockItem(ModBlocks.APPLE_BLOCK, new Item.Settings().maxCount(65).group(Main.ITEM_GROUP).food(new FoodComponent.Builder().build()));
@@ -38,7 +38,8 @@ public class ModItems {
     public static final Item DIAMOND_PUFFERFISH = new Item(new Item.Settings().group(Main.DIAMOND_GROUP).maxCount(65).food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 240, 0), 1).build()));
     public static final Item NETHERITE_PUFFERFISH = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(65).food(new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 6034, 4), 1).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 420, 3), 1).build()));
     public static final Item APPLE_INGOT = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(65).food(new FoodComponent.Builder().build()));
-
+    public static final Item CARROT_NUGGET = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(65).food(new FoodComponent.Builder().hunger(1).saturationModifier(5f).build()));
+    public static final Item TURTLE_CAKE = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(1).food(new FoodComponent.Builder().hunger(3).saturationModifier(5f).statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 400, 5),1).statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 400,3),1).build()));
     //Registry
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "infinite_fuel"), INFINITE_FUEL);
@@ -66,5 +67,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "netherite_pufferfish"), NETHERITE_PUFFERFISH);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "apple_ingot"), APPLE_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "apple_block"), APPLE_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "carrot_nugget"), CARROT_NUGGET);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "turtle_cake"), TURTLE_CAKE);
     }
 }
