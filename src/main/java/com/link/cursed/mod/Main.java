@@ -56,7 +56,6 @@ public static final String MOD_ID = "cursed";
             .build();
     // ...
 
-
     public static final ItemGroup SNAIL_GROUP = FabricItemGroupBuilder.create(
             new Identifier("cursed", "snail"))
             .icon(() -> new ItemStack(ModItems.SNAIL))
