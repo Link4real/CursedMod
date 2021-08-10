@@ -1,6 +1,7 @@
 package com.link.cursed.mod.registry;
 
 import com.link.cursed.mod.Main;
+import com.link.cursed.mod.registry.custom.EntertainmentBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
@@ -12,9 +13,8 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
 
-
-    public static final Block PERSONAL_ENTERTAINMENT_DEVICE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
-    public static final Block SMOOTH_DIAMOND_ORE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f,5f).sounds(BlockSoundGroup.STONE));
+    public static final Block PERSONAL_ENTERTAINMENT_DEVICE = new EntertainmentBlock(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
+    public static final Block SMOOTH_DIAMOND_ORE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
     public static final Block COOKIE_BLOCK = new Block(FabricBlockSettings.of(Material.CAKE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1f, 5f).sounds(BlockSoundGroup.ANVIL));
     public static final Block APPLE_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1f, 5f).sounds(BlockSoundGroup.AMETHYST_BLOCK));
 
