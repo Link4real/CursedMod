@@ -11,8 +11,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
-
-
     public static final Block PERSONAL_ENTERTAINMENT_DEVICE = new EntertainmentBlock(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
     public static final Block SMOOTH_DIAMOND_ORE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
     public static final Block COOKIE_BLOCK = new Block(FabricBlockSettings.of(Material.CAKE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1f, 5f).sounds(BlockSoundGroup.ANVIL));
