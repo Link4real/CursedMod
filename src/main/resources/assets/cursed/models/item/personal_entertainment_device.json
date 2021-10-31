@@ -1,3 +1,6 @@
 {
-  "parent": "cursed:block/personal_entertainment_device"
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "cursed:items/personal_entertainment_device"
+  }
 }

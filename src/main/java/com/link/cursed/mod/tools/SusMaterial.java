@@ -17,7 +17,7 @@ public class SusMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 420;
+        return 419;
     }
 
     @Override
