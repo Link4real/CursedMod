@@ -3,17 +3,19 @@ package com.link.cursed.mod;
 import com.link.cursed.mod.registry.ModBlocks;
 import com.link.cursed.mod.registry.ModItems;
 import com.link.cursed.mod.registry.RegisterHalfDiamondArmor;
+import com.link.cursed.mod.registry.SwordEffect;
 import com.link.cursed.mod.tools.SusMaterial;
 import com.link.cursed.mod.tools.SusSwordBase;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class Main implements ModInitializer {
-
+    public static final StatusEffect SwordEffect = new SwordEffect();
 public static final String MOD_ID = "cursed";
 
 
@@ -51,6 +53,8 @@ public static final String MOD_ID = "cursed";
                 stacks.add(new ItemStack(RegisterHalfDiamondArmor.DIAMOND_TOP));
                 stacks.add(new ItemStack(RegisterHalfDiamondArmor.DIAMOND_BERET));
                 stacks.add(new ItemStack(ModItems.DIAMOND_PUFFERFISH));
+                stacks.add(new ItemStack(ModBlocks.COMPUTER));
+                stacks.add(new ItemStack(ModBlocks.WATER_BOTTLE));
             })
             .build();
     // ...
@@ -301,6 +305,7 @@ public static final String MOD_ID = "cursed";
 
             })
             .build();
+
     // ...
     @Override
     public void onInitialize() {
@@ -309,5 +314,6 @@ public static final String MOD_ID = "cursed";
         RegisterHalfDiamondArmor.register();
         //Tools
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "sus_sword"), new SusSwordBase(new SusMaterial()));
+        Registry.register(Registry.STATUS_EFFECT, new Identifier("cursed", "sword"), SwordEffect);
     }
 }

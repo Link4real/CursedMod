@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "cursed:block/computer"},
+    "facing=east":  { "model": "cursed:block/computer", "y":  90},
+    "facing=south": { "model": "cursed:block/computer", "y": 180},
+    "facing=west":  { "model": "cursed:block/computer", "y": 270}
+  }
+}

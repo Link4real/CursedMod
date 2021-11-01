@@ -35,5 +35,7 @@
   "item.cursed.sus_sword": "IMPOSTER SLAYER 3000",
   "itemGroup.cursed.snail": "THEY ARE EVERYWHERE",
   "item.cursed.carrot_nugget": "Carrot Nugget",
-  "item.cursed.turtle_cake": "Turtle Cake"
+  "item.cursed.turtle_cake": "Turtle Cake",
+  "effect.cursed.sword": "There is a Sword in your stomach",
+  "block.cursed.computer": "Computer"
 }

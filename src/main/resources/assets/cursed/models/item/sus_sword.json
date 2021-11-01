@@ -1,6 +1,39 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "cursed:items/sus_sword"
-  }
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cursed:blocks/machine_1",
+		"particle": "cursed:blocks/machine_1"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 6],
+			"to": [9, 32, 7],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#0"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 6, 6],
+			"to": [15, 7, 7],
+			"faces": {
+				"north": {"uv": [0, 0, 13, 1], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#0"},
+				"south": {"uv": [0, 0, 13, 1], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 13, 1], "texture": "#0"},
+				"down": {"uv": [0, 0, 13, 1], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [21.5, -16.21, 33.84],
+			"translation": [-4.25, 4.5, 3.5]
+		}
+	}
 }
