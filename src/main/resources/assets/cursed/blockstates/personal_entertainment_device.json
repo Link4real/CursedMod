@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "cursed:block/personal_entertainment_device" }
+    "facing=north": { "model": "cursed:block/personal_entertainment_device"},
+    "facing=east":  { "model": "cursed:block/personal_entertainment_device", "y":  90},
+    "facing=south": { "model": "cursed:block/personal_entertainment_device", "y": 180},
+    "facing=west":  { "model": "cursed:block/personal_entertainment_device", "y": 270}
   }
 }
