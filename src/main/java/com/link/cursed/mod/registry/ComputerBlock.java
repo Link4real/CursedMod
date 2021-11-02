@@ -28,13 +28,13 @@ public class ComputerBlock extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.0f, 0f, 0.2f, 1f, 0.8f, 1f);
+                return VoxelShapes.cuboid(0.0f, 0f, 0f, 1f, 0.8f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.0f, 0f, 0.2f, 1f, 0.81f, 1f);
+                return VoxelShapes.cuboid(0.0f, 0f, 0f, 1f, 0.81f, 1f);
             case EAST:
-                return VoxelShapes.cuboid(0.0f, 0f, 0.3f, 1f, 0.811f, 1f);
+                return VoxelShapes.cuboid(0.0f, 0f, 0f, 1f, 0.811f, 1f);
             case WEST:
-                return VoxelShapes.cuboid(0.0f, 0f, 0.3f, 1f, 0.8111f, 1f);
+                return VoxelShapes.cuboid(0.0f, 0f, 0f, 1f, 0.8111f, 1f);
             default:
                 return VoxelShapes.fullCube();
         }
