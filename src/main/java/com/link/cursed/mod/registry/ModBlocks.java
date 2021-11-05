@@ -30,6 +30,6 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "apple_block"), APPLE_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "adnap"), ADNAP);
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "computer"), COMPUTER);
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "computer"), new BlockItem(COMPUTER, new FabricItemSettings().maxCount(16).group(ItemGroup.DECORATIONS)));
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "computer"), new BlockItem(COMPUTER, new FabricItemSettings().maxCount(16).group(Main.ITEM_GROUP)));
     }
 }

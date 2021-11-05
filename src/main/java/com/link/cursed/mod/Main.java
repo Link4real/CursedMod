@@ -55,6 +55,8 @@ public static final String MOD_ID = "cursed";
                 stacks.add(new ItemStack(ModItems.DIAMOND_PUFFERFISH));
                 stacks.add(new ItemStack(ModBlocks.COMPUTER));
                 stacks.add(new ItemStack(ModItems.ADNAP));
+                stacks.add(new ItemStack(ModItems.CURSED_SHIELD));
+                stacks.add(new ItemStack(ModItems.COMPUTA_CHIP));
             })
             .build();
     // ...

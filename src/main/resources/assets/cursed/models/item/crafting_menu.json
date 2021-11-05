@@ -1,6 +1,46 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "cursed:items/crafting_menu"
-  }
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cursed:items/crafting_menu",
+		"particle": "cursed:items/crafting_menu"
+	},
+	"elements": [
+		{
+			"from": [-6, 0, 6],
+			"to": [21, 16, 7],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [7.9322, 0, 8.25424, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [7.79661, 0, 8.18644, 16], "texture": "#0"},
+				"up": {"uv": [10.23729, 0, 16, 1], "texture": "#0"},
+				"down": {"uv": [10.37288, 0, 16, 1], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [66.5, 0, 0],
+			"translation": [0, -1.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [66.75, 0, 0],
+			"translation": [-0.5, -1.5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [31.5, -13.75, -28]
+		},
+		"firstperson_lefthand": {
+			"translation": [84, -25, -80]
+		},
+		"ground": {
+			"translation": [0, 3.75, 0]
+		},
+		"gui": {
+			"scale": [1.27539, 1.20117, 1]
+		},
+		"head": {
+			"translation": [0, 0, -6]
+		}
+	}
 }

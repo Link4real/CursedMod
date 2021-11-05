@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "PCP",
+    " G "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald_block"
+    },
+    "P": {
+      "item": "minecraft:polished_andesite"
+    },
+    "C": {
+      "item": "cursed:computa_chip"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "cursed:computer",
+    "count": 1
+  }
+}

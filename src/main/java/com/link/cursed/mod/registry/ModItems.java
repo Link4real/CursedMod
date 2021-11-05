@@ -44,7 +44,8 @@ public class ModItems {
     public static final Item CARROT_NUGGET = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(65).food(new FoodComponent.Builder().hunger(1).saturationModifier(5f).build()));
     public static final Item TURTLE_CAKE = new Item(new Item.Settings().group(Main.ITEM_GROUP).maxCount(1).food(new FoodComponent.Builder().hunger(3).saturationModifier(5f).statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 400, 5),1).statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 400,3),1).build()));
     public static final BlockItem ADNAP = new PandaItem(ModBlocks.ADNAP, new Item.Settings().maxCount(11).group(Main.ITEM_GROUP));
-    public static final Item CURSED_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, ModItems.ONE_THOUSAND_AND_TWENTY_FOUR_DIAMONDS);
+    public static final Item CURSED_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(Main.ITEM_GROUP), 10, 13, ModItems.ONE_THOUSAND_AND_TWENTY_FOUR_DIAMONDS);
+    public static final Item COMPUTA_CHIP = new Item(new FabricItemSettings().maxCount(1).group(Main.ITEM_GROUP));
     //Registry
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "infinite_fuel"), INFINITE_FUEL);
@@ -76,5 +77,6 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "turtle_cake"), TURTLE_CAKE);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "adnap"), ADNAP);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "cursed_shield"), CURSED_SHIELD);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "computa_chip"), COMPUTA_CHIP);
     }
 }

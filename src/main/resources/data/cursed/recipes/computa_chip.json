@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#L#",
+    " G "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_sapling"
+    },
+    "L": {
+      "item": "minecraft:lime_wool"
+    },
+    "G": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "cursed:computa_chip",
+    "count": 1
+  }
+}
