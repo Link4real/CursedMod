@@ -37,5 +37,10 @@
   "item.cursed.carrot_nugget": "Carrot Nugget",
   "item.cursed.turtle_cake": "Turtle Cake",
   "effect.cursed.sword": "There is a Sword in your stomach",
-  "block.cursed.computer": "Computer"
+  "block.cursed.computer": "Computer",
+  "block.cursed.adnap": "adnaP",
+  "item.cursed.adnap.tooltip": "Download Plushie Mod now!",
+  "item.cursed.adnap": "adnaP",
+  "item.cursed.cursed_shield": "Cursed Shield"
+
 }

@@ -1,45 +1,30 @@
-package com.link.cursed.mod.registry.custom;
+package com.link.cursed.mod.registry;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.entity.LivingEntity;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.Properties;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
-import org.spongepowered.asm.mixin.Mixin;
 
-/**
- * @author vento
- * @since 0.1.alpha
- */
-public class EntertainmentBlock extends HorizontalFacingBlock {
-    public EntertainmentBlock(Settings settings) {
-        super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.6f));
+import java.util.List;
+
+public class PandaBlock extends HorizontalFacingBlock {
+    public PandaBlock(Settings settings) {
+        super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
-
-    /**
-     * @author vento
-     * @since 0.1.alpha
-     */
-    @Override
-    public void onPlaced(World world, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack itemStack) {
-        MinecraftClient.getInstance().stop();
-    }
-    /**
-     * @author Link4real
-     * @since 1.0
-     */
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> stateManager) {
@@ -51,13 +36,13 @@ public class EntertainmentBlock extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 1f, 1f);
+                return VoxelShapes.cuboid(0.0f, 0f, 0f, 1f, 0.8f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0f, 0f, 0f, 1.1f, 1f, 1f);
+                return VoxelShapes.cuboid(0.0f, 0f, 0f, 1f, 0.81f, 1f);
             case EAST:
-                return VoxelShapes.cuboid(0f, 0f, 0f, 1.11f, 1f, 1f);
+                return VoxelShapes.cuboid(0.0f, 0f, 0f, 1f, 0.811f, 1f);
             case WEST:
-                return VoxelShapes.cuboid(0f, 0f, 0f, 1.111f, 1f, 1f);
+                return VoxelShapes.cuboid(0.0f, 0f, 0f, 1f, 0.8111f, 1f);
             default:
                 return VoxelShapes.fullCube();
         }
@@ -67,5 +52,4 @@ public class EntertainmentBlock extends HorizontalFacingBlock {
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         return (BlockState)this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing().getOpposite());
     }
-
 }

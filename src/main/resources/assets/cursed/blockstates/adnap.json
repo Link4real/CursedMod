@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "cursed:block/adnap"},
+    "facing=east":  { "model": "cursed:block/adnap", "y":  90},
+    "facing=south": { "model": "cursed:block/adnap", "y": 180},
+    "facing=west":  { "model": "cursed:block/adnap", "y": 270}
+  }
+}

@@ -54,7 +54,7 @@ public static final String MOD_ID = "cursed";
                 stacks.add(new ItemStack(RegisterHalfDiamondArmor.DIAMOND_BERET));
                 stacks.add(new ItemStack(ModItems.DIAMOND_PUFFERFISH));
                 stacks.add(new ItemStack(ModBlocks.COMPUTER));
-                stacks.add(new ItemStack(ModBlocks.WATER_BOTTLE));
+                stacks.add(new ItemStack(ModItems.ADNAP));
             })
             .build();
     // ...
