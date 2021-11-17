@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "cursed:block/dirt_0"
+    },
+    "bites=1": {
+      "model": "cursed:block/dirt_1"
+    },
+    "bites=2": {
+      "model": "cursed:block/dirt_2"
+    },
+    "bites=3": {
+      "model": "cursed:block/dirt_3"
+    },
+    "bites=4": {
+      "model": "cursed:block/dirt_4"
+    },
+    "bites=5": {
+      "model": "cursed:block/dirt_5"
+    },
+    "bites=6": {
+      "model": "cursed:block/dirt_6"
+    }
+  }
+}

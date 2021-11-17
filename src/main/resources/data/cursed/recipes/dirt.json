@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#D#",
-    "###",
+    " # ",
+    "#C#",
     " # "
   ],
   "key": {
     "#": {
-      "item": "minecraft:sand"
+      "item": "minecraft:dirt"
     },
-    "D": {
-      "item": "minecraft:dandelion"
+    "C": {
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {
-    "item": "cursed:cursed_shield",
+    "item": "cursed:dirt",
     "count": 1
   }
 }
