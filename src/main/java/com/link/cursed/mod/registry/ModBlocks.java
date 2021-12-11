@@ -16,10 +16,10 @@ import net.minecraft.util.registry.Registry;
 import static com.link.cursed.mod.Main.MOD_ID;
 
 public class ModBlocks {
-    public static final Block PERSONAL_ENTERTAINMENT_DEVICE = new EntertainmentBlock(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
-    public static final Block SMOOTH_DIAMOND_ORE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
-    public static final Block COOKIE_BLOCK = new Block(FabricBlockSettings.of(Material.CAKE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1f, 5f).sounds(BlockSoundGroup.ANVIL));
-    public static final Block APPLE_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1f, 5f).sounds(BlockSoundGroup.AMETHYST_BLOCK));
+    public static final Block PERSONAL_ENTERTAINMENT_DEVICE = new EntertainmentBlock(FabricBlockSettings.of(Material.STONE).breakByHand(true).strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
+    public static final Block SMOOTH_DIAMOND_ORE = new Block(FabricBlockSettings.of(Material.STONE).breakByHand(true).strength(1.0f, 5f).sounds(BlockSoundGroup.STONE));
+    public static final Block COOKIE_BLOCK = new Block(FabricBlockSettings.of(Material.CAKE).breakByHand(true).strength(1f, 5f).sounds(BlockSoundGroup.ANVIL));
+    public static final Block APPLE_BLOCK = new Block(FabricBlockSettings.of(Material.GLASS).breakByHand(true).strength(1f, 5f).sounds(BlockSoundGroup.AMETHYST_BLOCK));
     public static final Block COMPUTER = new ComputerBlock(FabricBlockSettings.of(Material.EGG).strength(200f).nonOpaque().sounds(BlockSoundGroup.SCULK_SENSOR));
     public static final Block ADNAP = new PandaBlock(FabricBlockSettings.of(Material.GLASS).strength(2f).nonOpaque().sounds(BlockSoundGroup.POINTED_DRIPSTONE));
     public static final Block DIRT = new DirtCake(FabricBlockSettings.of(Material.SOLID_ORGANIC).strength(1, 5).sounds(BlockSoundGroup.GRASS));
